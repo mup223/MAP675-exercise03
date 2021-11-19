@@ -1,0 +1,667 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.952475, 34.034227]
+        },
+        "properties": {
+            "price": 2350000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 4.5,
+            "sqFt": 6661,
+            "address": "6045 Lakeshore Dr, Columbia, SC 29206"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.984096, 34.001932]
+        },
+        "properties": {
+            "price": 1325000,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "bathrooms": 4.5,
+            "sqFt": 5087,
+            "address": "3912 Kilbourne Rd, Columbia, SC 29205"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.91582389, 34.132084929]
+        },
+        "properties": {
+            "price": 1955000,
+            "city": "Columbia",
+            "address": "Tat Rd, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.955503, 34.016477]
+        },
+        "properties": {
+            "price": 2200000,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "sqFt": 6425,
+            "address": "156 Gregg Pkwy, Columbia, SC 29206"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.893552, 34.170324]
+        },
+        "properties": {
+            "price": 2250000,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "sqFt": 8121,
+            "address": "51 Shoreline Dr, Columbia, SC 29229"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.968702, 34.000724]
+        },
+        "properties": {
+            "price": 1740000,
+            "city": "Columbia",
+            "bedrooms": 6,
+            "bathrooms": 5.5,
+            "sqFt": 5735,
+            "address": "4624 Lelias Ct, Columbia, SC 29206"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.019722, 33.991677]
+        },
+        "properties": {
+            "price": 1345000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "sqFt": 4476,
+            "address": "1638 Catawba St, Columbia, SC 29205"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.10642145, 34.040871122]
+        },
+        "properties": {
+            "price": 1200000,
+            "city": "Columbia",
+            "address": "Rockland Rd, Columbia, SC 29210"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.9428, 33.9658]
+        },
+        "properties": {
+            "price": 1101800,
+            "city": "Columbia",
+            "address": "Ne/S Garners Ferry Rd, Columbia, SC 29209"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.979422, 34.01816]
+        },
+        "properties": {
+            "price": 1185000,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "bathrooms": 5.5,
+            "sqFt": 5128,
+            "address": "1441 Greenhill Rd, Columbia, SC 29206"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.884627, 34.173156]
+        },
+        "properties": {
+            "price": 999900,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "sqFt": 6857,
+            "address": "101 Harbor Dr, Columbia, SC 29229"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.026418, 34.097658]
+        },
+        "properties": {
+            "price": 1000000,
+            "city": "Columbia",
+            "address": "7441 Fairfield Rd, Columbia, SC 29203"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.985237, 34.00339]
+        },
+        "properties": {
+            "price": 899900,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "sqFt": 4341,
+            "address": "1315 Haynesworth Rd, Columbia, SC 29205"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.982184, 34.006456]
+        },
+        "properties": {
+            "price": 895000,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "bathrooms": 5.5,
+            "sqFt": 5034,
+            "address": "1509 Saramont Rd, Columbia, SC 29205"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.89221416, 34.147066375]
+        },
+        "properties": {
+            "price": 899500,
+            "city": "Columbia",
+            "address": "Longtown Rd, Columbia, SC 29229"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.022318, 34.003734]
+        },
+        "properties": {
+            "price": 875000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 4,
+            "sqFt": 2850,
+            "address": "1829 Senate St, Units 4B & 4C, Columbia, SC 29201"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.969312, 34.00202]
+        },
+        "properties": {
+            "price": 950000,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "sqFt": 4066,
+            "address": "1390 Kathwood Dr, Columbia, SC 29206"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.91236251, 34.149329081]
+        },
+        "properties": {
+            "price": 800000,
+            "city": "Columbia",
+            "address": "Hard Scrabble Rd, Columbia, SC 29229"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.974142, 33.978454]
+        },
+        "properties": {
+            "price": 829000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 4.5,
+            "sqFt": 4950,
+            "address": "109 Preserve Ln, Columbia, SC 29209"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.897004, 34.169669]
+        },
+        "properties": {
+            "price": 850000,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "sqFt": 6588,
+            "address": "29 Shoreline Dr, Columbia, SC 29229"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.974182, 34.130889]
+        },
+        "properties": {
+            "price": 899000,
+            "city": "Columbia",
+            "bedrooms": 3,
+            "bathrooms": 2,
+            "sqFt": 1897,
+            "address": "248 Killian Rd, Columbia, SC 29203"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.968416, 34.011127]
+        },
+        "properties": {
+            "price": 899000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "sqFt": 3671,
+            "address": "4600 Lander St, Columbia, SC 29206"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.991658, 34.104902]
+        },
+        "properties": {
+            "price": 887500,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "sqFt": 2513,
+            "address": "140 Nubbin Ridge Rd, Columbia, SC 29203"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.863316, 34.09795]
+        },
+        "properties": {
+            "price": 799900,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "sqFt": 5390,
+            "address": "205 Trentwood Dr, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.93652503, 34.082224534]
+        },
+        "properties": {
+            "price": 825000,
+            "city": "Columbia",
+            "address": "Trenholm Road Ext, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.017696, 33.987085]
+        },
+        "properties": {
+            "price": 850000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 4.5,
+            "sqFt": 4035,
+            "address": "215 Southwood Dr, Columbia, SC 29205"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.92115708, 34.083228645]
+        },
+        "properties": {
+            "price": 750000,
+            "city": "Columbia",
+            "address": "W/S Rabon Rd, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.880768, 34.097027]
+        },
+        "properties": {
+            "price": 699900,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "bathrooms": 4.5,
+            "sqFt": 6055,
+            "address": "117 Holliday Rd, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.951376, 33.989834]
+        },
+        "properties": {
+            "price": 755000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "sqFt": 3870,
+            "address": "2 Tuckahoe Ct, Columbia, SC 29209"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.991677, 34.123111]
+        },
+        "properties": {
+            "price": 795000,
+            "city": "Columbia",
+            "bedrooms": 2,
+            "bathrooms": 2,
+            "sqFt": 1500,
+            "address": "9200 Wilson Blvd, Columbia, SC 29203"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.873431, 34.104789]
+        },
+        "properties": {
+            "price": 752500,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "bathrooms": 5.5,
+            "sqFt": 6673,
+            "address": "509 Oak Brook Dr, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.017759, 33.971134]
+        },
+        "properties": {
+            "price": 749900,
+            "city": "Columbia",
+            "bedrooms": 3,
+            "bathrooms": 3,
+            "sqFt": 1600,
+            "address": "1100 Bluff Rd, Unit 601, Columbia, SC 29201"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.882442, 34.173011]
+        },
+        "properties": {
+            "price": 699990,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 4,
+            "sqFt": 4546,
+            "address": "64 Dory Ct, Unit 133, Columbia, SC 29229"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.00117, 34.013477]
+        },
+        "properties": {
+            "price": 745000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "sqFt": 3150,
+            "address": "2842 Stratford Rd, Columbia, SC 29204"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.922437, 34.117163]
+        },
+        "properties": {
+            "price": 735000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "sqFt": 5769,
+            "address": "20 Park Shore Dr N, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.004197, 33.996301]
+        },
+        "properties": {
+            "price": 685000,
+            "city": "Columbia",
+            "bedrooms": 8,
+            "bathrooms": 4,
+            "address": "2728 Blossom St, Columbia, SC 29205"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.884971, 34.170473]
+        },
+        "properties": {
+            "price": 684990,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 4,
+            "sqFt": 3960,
+            "address": "35 Schooner Ct, Unit 155, Columbia, SC 29229"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.003932, 34.010568]
+        },
+        "properties": {
+            "price": 679900,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "bathrooms": 3,
+            "sqFt": 4349,
+            "address": "2709 Gervais St, Columbia, SC 29204"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.975141, 34.024821]
+        },
+        "properties": {
+            "price": 649900,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "sqFt": 3422,
+            "address": "1907 Parrish Dr, Columbia, SC 29206"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.003424, 34.012139]
+        },
+        "properties": {
+            "price": 679000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 4,
+            "sqFt": 3506,
+            "address": "1311 Wellington Dr, Columbia, SC 29204"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.96805, 33.96368]
+        },
+        "properties": {
+            "price": 609900,
+            "city": "Columbia",
+            "bedrooms": 3,
+            "bathrooms": 3.5,
+            "sqFt": 4227,
+            "address": "150 Old Hampton Ln, Columbia, SC 29209"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.861007, 34.098415]
+        },
+        "properties": {
+            "price": 668000,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "bathrooms": 5.5,
+            "sqFt": 3487,
+            "address": "101 Trentwood Dr, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.92391, 34.136708]
+        },
+        "properties": {
+            "price": 625000,
+            "city": "Columbia",
+            "address": "110 Barton Creek Ct, Columbia, SC 29229"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.884388, 34.168967]
+        },
+        "properties": {
+            "price": 624990,
+            "city": "Columbia",
+            "bedrooms": 5,
+            "bathrooms": 4,
+            "sqFt": 3695,
+            "address": "41 Clipper Way, Unit 115, Columbia, SC 29229"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.887884, 34.096109]
+        },
+        "properties": {
+            "price": 590000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "sqFt": 3800,
+            "address": "124 Silver Lake Rd E, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.019524, 33.993204]
+        },
+        "properties": {
+            "price": 574900,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "sqFt": 3203,
+            "address": "434 Barnwell St, Columbia, SC 29205"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-81.035813, 34.136216]
+        },
+        "properties": {
+            "price": 599000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 1,
+            "sqFt": 3200,
+            "address": "7881 Winnsboro Rd, Columbia, SC 29203"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.883948, 34.102057]
+        },
+        "properties": {
+            "price": 589900,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "sqFt": 3827,
+            "address": "107 Leaning Tree Rd, Columbia, SC 29223"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.957962, 34.018369]
+        },
+        "properties": {
+            "price": 574950,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3.5,
+            "sqFt": 3440,
+            "address": "121 Alexander Cir, Columbia, SC 29206"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-80.991025, 33.996379]
+        },
+        "properties": {
+            "price": 599000,
+            "city": "Columbia",
+            "bedrooms": 4,
+            "bathrooms": 3,
+            "sqFt": 3390,
+            "address": "3443 Blossom St, Unit 14, Columbia, SC 29205"
+        }
+    }]
+}

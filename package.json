@@ -1,0 +1,25 @@
+{
+  "name": "MAP675-exercise03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mup223/MAP675-exercise03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mup223/MAP675-exercise03/issues"
+  },
+  "homepage": "https://github.com/mup223/MAP675-exercise03#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.1.0"
+  },
+  "type": "module"
+}
