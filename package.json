@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/mup223/MAP675-exercise03#readme",
   "dependencies": {
+    "@turf/boolean-point-in-polygon": "^6.5.0",
+    "@turf/buffer": "^6.5.0",
     "dotenv": "^10.0.0",
     "node-fetch": "^3.1.0"
   },

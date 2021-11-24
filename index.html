@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Value</title>
+    <link href="https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        #average-space {
+            width: 263px;
+            height: 38px;
+            z-index: 2;
+            background-color: white;
+            border-radius: 5px;
+            border: solid black 3px;
+            position: absolute;
+            bottom: 0;
+            margin-left: 43px;
+            margin-bottom: 25px;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        #average {
+            margin: 0;
+        }
+
+        h4 {
+            text-decoration: underline;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+        }
+
+        #title {
+            width: 467px;
+            height: 38px;
+            z-index: 2;
+            background-color: white;
+            border-radius: 5px;
+            border: solid black 3px;
+            position: absolute;
+            left: 0;
+            margin-left: 746px;
+            text-align: center;
+            padding-top: 17px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="title">What's the current average listing price for homes around you?</div>
+    <div id="map"></div>
+    <div id="average-space">
+        <h4>Average Value of Real Estate</h4>
+        <p id="average">Search for an address!</p>
+    </div>
+
+    <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js"></script>
+    <script src="https://npmcdn.com/@turf/turf/turf.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        var map = L.map("map", {
+            zoomSnap: 0.1,
+            center: [34.005285, -81.020565],
+            zoom: 11
+        });
+
+        // mapbox access token
+        var accessToken = "pk.eyJ1IjoidXBjaGVlenkiLCJhIjoiY2p2Ym04aDc0MHJwejQ0bzBjcGNidjA3eiJ9.UkAX6oKYBEzgzsigkN0pbQ";
+
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
+            tileSize: 512,
+            maxZoom: 18,
+            zoomOffset: -1,
+            id: 'mapbox/light-v10',
+            accessToken: accessToken
+        }).addTo(map);
+
+        // create a geocoder control object with options
+        var geoCoderControl = L.mapbox.geocoderControl("mapbox.places", {
+            accessToken: accessToken,
+            keepOpen: true,
+            autocomplete: true,
+            position: "topright"
+        });
+
+        // add the geocoder to the map
+        map.addControl(geoCoderControl);
+
+        // use d3-fetch to request the topojson
+        d3.json("data/property-results.geojson").then(function (data) {
+            drawMap(data); // send data out of callback to a new function
+        });
+
+        function drawMap(data) {
+            // add to our map
+            let propertyListings = L.geoJSON(data, {
+                onEachFeature(feature, layer) {
+                    layer.bindPopup(
+                        '<p>' + feature.properties.address + '</p>'
+                    )
+                    layer.on('mouseover', function () {
+                        this.openPopup()
+                    })
+                    layer.on('mouseout', function () {
+                        this.closePopup()
+                    })
+                }
+            }).addTo(map);
+
+            // listen for a selection and then invoke the callback function
+            geoCoderControl.on("select", function (result) {
+                // let searchResult
+                if (typeof searchResult !== 'undefined') {
+                    console.log('searchresult not undefined')
+                    map.removeLayer(searchResult)
+                }
+                // add a marker on the map
+                searchResult = L.geoJson(result.feature).addTo(map);
+
+                // add and open tooltip
+                searchResult.bindTooltip(result.feature.place_name).openTooltip();
+
+                let point = turf.point(result.feature.center)
+                let buffered = turf.buffer(point, 1, {
+                    units: 'miles'
+                })
+                // let turfBuffer;
+                if (typeof turfBuffer !== 'undefined') {
+                    console.log('turfbuffer not undefined')
+                    map.removeLayer(turfBuffer)
+                }
+                turfBuffer = L.geoJSON(buffered).addTo(map)
+
+                let priceCont = [];
+
+                propertyListings.eachLayer(function (layer) {
+                    let propertyFeature = layer.toGeoJSON();
+                    // console.log(propertyFeature)
+
+                    if (turf.booleanPointInPolygon(propertyFeature, buffered)) {
+                        // console.log(propertyFeature)
+                        priceCont.push(propertyFeature.properties.price)
+                    }
+                })
+
+                let average = (array) => array.reduce((a, b) => a + b) / array.length;
+
+                $('#average').text('$' + average(priceCont).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+            });
+        }
+    </script>
+</body>
+
+</html>
